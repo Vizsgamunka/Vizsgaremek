@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#termek_kategoriak{
+    top: 20;
+    position: fixed;
+}

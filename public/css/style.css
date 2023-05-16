@@ -1,0 +1,24 @@
+@charset "utf-8";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.sticky {
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+header, footer{
+    text-align:center;
+}
+
+#modal-title{
+    text-align:center;
+    margin:5px;
+}

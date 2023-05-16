@@ -1,0 +1,84 @@
+@charset "utf-8";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*GRID*/
+main {
+    display: grid;
+    grid-template-areas:
+        "h h h h"
+        "n n n n"
+        "a a a a"
+        "f f f f";
+}
+header {
+    grid-area: h;
+}
+nav {
+    grid-area: n;
+}
+article {
+    grid-area: a;
+}
+footer {
+    grid-area: f;
+}
+/*GRID VÉGE*/
+
+* {
+    box-sizing: border-box;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+header {
+    text-align:center;
+}
+img {
+    height: 200px;
+    width: 200px;
+}
+footer {
+    text-align:center;
+}
+.tervezo_div {
+    border: 1px solid black;
+    padding: 5px;
+}
+.tervezo_article {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.ruha_article {
+    max-width: 970px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+
+}
+.card {
+    border: 1px solid black;
+    height: 310px;
+    width: 310px;
+}
+#termek_kategoria button {
+    background-color: white;
+    color: black;
+    border: 2px solid #4caf50; /* Green */
+}
+
+#termek_kategoria {
+    display: flex;
+    justify-content: center;
+}
+
+#kep_elem{
+    width:100px;
+    height:100px;
+}
